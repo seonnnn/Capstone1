@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserLogComponent from './components/UserLogComponent';
+import LoginCard from './components/accounts/LoginCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <UserLogComponent />
   </React.StrictMode>
 );
 
