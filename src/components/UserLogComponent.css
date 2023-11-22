@@ -33,13 +33,13 @@ th {
     margin-bottom: 20px; 
 }
 
-/* 필터 */
+/* 필터 스타일링 */
 .filter-section {
     text-align: right;
     margin-bottom: 20px;
 }
 
-/* 드롭다운 */
+/* 드롭다운 스타일링 */
 .filter-section select {
     padding: 5px 10px;
     margin-right: 10px;

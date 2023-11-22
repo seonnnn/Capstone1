@@ -35,7 +35,7 @@ const UserLogComponent = () => {
     const filteredLogs = () => {
         return logs.filter(log => {
             return (filterIp === '' || log.ip === filterIp) &&
-                   (filterApp === '' || log.app.includes(filterApp)); // 앱 이름 포함 여부로 필터링
+                   (filterApp === '' || log.app.includes(filterApp)); 
         });
     };
 
